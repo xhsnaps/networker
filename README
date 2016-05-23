@@ -1,0 +1,14 @@
+需要实现的功能：
+
+from networker import networker
+
+s = networker(ip='10.0.8.11')
+
+# 获取执行命令的输出
+output = s.run("whoami")
+
+ha = networker(ip='10.0.8.11', ip2='10.0.8.9')
+
+# 获取执行命令的输出，如果对象为HA设备，则仅在Active设备上执行
+output = s.run("I'm active!")
+
