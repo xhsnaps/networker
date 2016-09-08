@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-class topsecConnection:
+class TopsecConnection:
 	def __init__(self, ipaddr, user, passwd, port=22, prompt="%"):
 
 	def __enter__(self):
@@ -29,3 +29,6 @@ class TopsecShell:
 	def run(self, command=command):
 		with self._conn as conn:
 			pass
+
+
+			

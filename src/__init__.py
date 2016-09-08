@@ -1,6 +1,3 @@
-from paramiko_shell import paramiko_shell
-from pexpect_shell import pexpect_shell
-
 class networkers:
 	def __init__(self):
 		# 
